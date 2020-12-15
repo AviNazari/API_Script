@@ -1,9 +1,3 @@
-# How-to for: "2. Upload into a basket"
-
-# The requests library must be installed.
-# Please update base_url, token and
-# filename according to your configuration.
-
 import json
 import time
 
@@ -11,7 +5,7 @@ import requests
 
 base_url = "https://testtask.3yourmind.com/api/v2.0/"
 token = "792b74f003a2e05ae81eaae96b11a873b229ac40"
-filename = "Left_arm.stl"  # placed in the same directory
+filename = "Left_arm.stl"  
 
 std_header = {"Authorization": f"Token {token}"}
 
